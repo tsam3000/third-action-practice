@@ -2,6 +2,7 @@ name: Deployment Two
 on: push
 jobs:
   Deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: Get Code
         uses: actions/checkout@v3
